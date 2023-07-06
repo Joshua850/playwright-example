@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 import { DominosHome } from "../pages/dominosHome";
-import { TopologyOpeningEvent } from "mongodb";
+
 
 test.describe("e2e ordering a pizza!", async () => {
   test("getting started should contain table of contents", async ({ page }) => {
