@@ -12,7 +12,7 @@ test.describe("e2e ordering a pizza!", async () => {
       await dominosPage.cookieAccept.click();
     });
     await test.step("Fill in address details", async () => {
-      await dominosPage.addressField.fill("R56PT80");
+      await dominosPage.addressField.fill("<ADDRESS>");
       await page.waitForTimeout(2000);
       await dominosPage.deliveryButton.click();
       await dominosPage.addressText.click();
